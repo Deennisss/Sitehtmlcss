@@ -1,0 +1,38 @@
+
+body {
+    background-color: blueviolet;
+    }
+    
+    
+nav{
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none ;
+    align-items: center;
+    padding: 25px;
+    
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.flex.container{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+.flex.item{
+    width: 200px;
+}
